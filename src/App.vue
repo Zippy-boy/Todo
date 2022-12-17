@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/require-v-for-key -->
 <template>
   <div class="todo">
     <div class="title has-text-centered">ToDo</div>
@@ -58,13 +59,11 @@ import { addDoc } from "firebase/firestore";
 import {
   collection,
   query,
-  where,
   onSnapshot,
   deleteDoc,
   doc,
   updateDoc,
   orderBy,
-  limit,
 } from "firebase/firestore";
 import { db } from "@/firebase";
 
