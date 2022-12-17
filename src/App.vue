@@ -8,7 +8,7 @@
           <input
             class="input"
             type="text"
-            placeholder="Add a todo"
+            placeholder="Add a todo!"
             v-model="newTodoContent"
           />
         </p>
